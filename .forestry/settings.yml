@@ -7,8 +7,11 @@ sections:
 - type: directory
   path: content/data/pages
   label: Pages
-  create: none
+  create: documents
   match: "**/*"
+  new_doc_ext: ".json"
+  templates:
+  - home-page
 - type: heading
   label: Content
 - type: directory
