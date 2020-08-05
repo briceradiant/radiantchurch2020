@@ -39,6 +39,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: `${__dirname}/content/data/pages`,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: "images",
@@ -46,7 +53,7 @@ module.exports = {
       },
     },
     {
-      resolve: "gatsby-plugin-sharp", 
+      resolve: "gatsby-plugin-sharp",
       options: {
         defaultQuality: 75
       }
