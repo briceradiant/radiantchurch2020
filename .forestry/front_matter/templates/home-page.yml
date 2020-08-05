@@ -44,14 +44,24 @@ fields:
       "https://"</strong> (i.e. "https://www.google.com").
   label: Hero
 - name: home_feature_1
-  type: include
+  type: field_group
   config: {}
-  template: headline-image-cta
+  fields:
+  - name: content
+    type: include
+    config: {}
+    template: headline-image-cta
+    label: Content
   label: Feature 1
 - name: home_feature_2
-  type: include
+  type: field_group
   config: {}
-  template: headline-image-cta
+  fields:
+  - name: content
+    type: include
+    config: {}
+    template: headline-image-cta
+    label: Content
   label: Feature 2
 pages:
 - content/data/pages/Home.json
