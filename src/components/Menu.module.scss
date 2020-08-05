@@ -1,0 +1,94 @@
+@import "../mixins/transitions.scss";
+@import "../mixins/media.scss";
+
+.menu {
+    position: fixed;
+    right: 0;
+    // right: -160px;
+    top: 0;
+    z-index: 99;
+    background: $yellow-color;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    // margin-left: -230px;
+    // transform: translate3d(230px, 0, 0);
+    height: 100vh;
+    display: flex;
+    border-left: 1px solid $base-color;
+    @include transition-slow;
+
+    &.open {
+        // right: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .wrapper {
+        padding: 125px 90px;
+        width: 100%;
+    }
+
+    .menu_item {
+        list-style: none;
+        line-height: 1.5;
+
+        &>a {
+            display: flex;
+            align-items: center;
+        }
+
+        &>a:before {
+            content: attr(data-num);
+            font-family: "Gilroy Extrabold";
+            font-size: 1.8125rem;
+            line-height: 1;
+            display: inline-block;
+            margin-right: 15px;
+            margin-top: 5px;
+        }
+
+        ul {
+            padding-left: 50px;
+            margin-top: 10px;
+        }
+
+        .child_menu_item {
+            list-style: none;
+            flex: 0 33.333%;
+        }
+    }
+
+}
+
+.hamburger {
+    position: fixed;
+    z-index: 99999;
+    cursor: pointer;
+    top: 40px;
+    right: 20px;
+    overflow: hidden;
+    opacity: 1;
+    visibility: visible;
+    background: transparent;
+
+    &.open {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.hamburgerClose {
+    position: fixed;
+    z-index: 99999;
+    cursor: pointer;
+    top: 40px;
+    right: 20px;
+    opacity: 0;
+    @include transition-standard;
+
+    &.open {
+        opacity: 1;
+        visibility: visible;
+    }
+}

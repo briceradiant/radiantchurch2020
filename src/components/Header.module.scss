@@ -1,0 +1,37 @@
+@import "../mixins/media.scss";
+
+.header {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    left: 0;
+}
+
+.wrapper {
+    padding: 35px;
+    // position: absolute;
+    z-index: 1;
+}
+
+.logo {
+    // max-width: 160px;
+    width: 60px;
+    height: 60px;
+}
+
+@include tablet {
+    .wrapper {
+        padding: 25px;
+    }
+
+    .logo {
+        max-width: 120px;
+        height: 40px;
+    }
+}
+
+@include phone {
+    .logo {
+        max-width: 95px;
+    }
+}

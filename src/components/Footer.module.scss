@@ -1,0 +1,82 @@
+@import "../mixins/media.scss";
+
+:global {
+    #home footer {
+        padding-top: 400px;
+        margin-top: -450px;
+    }
+}
+
+@supports (display: grid) {
+    footer .grid {
+        grid-template-columns: 1fr 1.25fr 1fr !important;
+    }
+}
+
+.social {
+    padding-left: 14px;
+
+    a {
+        margin: 0 10px;
+
+        &:hover {
+            color: white;
+        }
+    }
+}
+
+.left svg {
+    max-width: 320px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.middle {
+    margin-top: 63px;
+}
+
+.right {
+    margin-top: 30px;
+
+    .address {
+        margin-top: 15px;
+    }
+}
+
+
+.middle {
+    .arrow {
+        position: absolute;
+        right: -1vw;
+        top: -15px;
+        transform: rotate(5deg);
+        width: 10.5vw;
+        height: 3.5vw;
+        height: 3.5vw;
+        max-width: 140px;
+        max-height: 40px;
+    }
+
+    .links {
+        max-height: 250px;
+
+        .item {
+            list-style: none;
+            margin: 7px 14px 7px 0;
+            flex: 0 24%;
+        }
+    }
+}
+
+.email {
+    background: transparent;
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    // margin-right: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+
+    &::placeholder {
+        color: white;
+    }
+}

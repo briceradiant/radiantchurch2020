@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react"
 import ContextConsumer from "./Context"
 import Transition from "./Transition"
-// import Header from "./Header"
-// import Menu from "./Menu"
+import Header from "./Header"
+import Menu from "./Menu"
 
 const PageWrap = props => {
   const [safari, setSafari] = useState(null)
@@ -37,10 +37,10 @@ const PageWrap = props => {
               }`}
             >
               <main>
-                {/* <Header /> */}
+                <Header />
                 <Transition location={location}>{childrenWithProps}</Transition>
               </main>
-              {/* <Menu location={location} /> */}
+              <Menu location={location} />
             </div>
           </div>
         )

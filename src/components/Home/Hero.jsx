@@ -5,7 +5,7 @@ import style from "./Hero.module.scss"
 
 const Hero = props => {
   const { scrollPos, data } = props
-  console.log(data)
+  // console.log(data)
   return (
     <section className={`${style.hero} hero pad_lg`}>
       <div className={`${style.wrapper} wrapper flex column space-between`}>
