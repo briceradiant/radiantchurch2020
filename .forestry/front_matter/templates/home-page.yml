@@ -2,47 +2,44 @@
 label: Home Page
 hide_body: true
 fields:
-  - name: hero
-    type: field_group
-    config: {}
-    fields:
-      - name: headline
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: true
-          schema:
-            format: html
-        label: Headline
-      - name: bodytext
-        type: textarea
-        default: ""
-        config:
-          required: false
-          wysiwyg: true
-          schema:
-            format: html
-        label: Bodytext
-      - name: image
-        type: file
-        config:
-          maxSize: 5
-        label: Image
-      - name: cta_button_text
-        type: text
-        config:
-          required: false
-        label: CTA Button Text
-      - name: cta_button_url
-        type: text
-        config:
-          required: false
-        label: CTA Button URL
-        description:
-          If the URL is located within the site, then <strong>begin the text
-          with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
-          "https://"</strong> (i.e. "https://www.google.com").
-    label: Hero
-pages:
-  - content/data/pages/home.json
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Headline
+  - name: bodytext
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Bodytext
+  - name: image
+    type: file
+    config:
+      maxSize: 5
+    label: Image
+  - name: cta_button_text
+    type: text
+    config:
+      required: false
+    label: CTA Button Text
+  - name: cta_button_url
+    type: text
+    config:
+      required: false
+    label: CTA Button URL
+    description: If the URL is located within the site, then <strong>begin the text
+      with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
+      "https://"</strong> (i.e. "https://www.google.com").
+  label: Hero
