@@ -43,5 +43,9 @@ fields:
       with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
       "https://"</strong> (i.e. "https://www.google.com").
   label: Hero
+- name: home_feature_1
+  type: field_group
+  config: {}
+  label: Feature 1
 pages:
 - content/data/pages/Home.json
