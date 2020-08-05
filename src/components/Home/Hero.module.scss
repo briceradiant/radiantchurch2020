@@ -1,0 +1,53 @@
+@import "../../mixins/media.scss";
+@import "../../mixins/underlines-circles.scss";
+
+section.hero {
+    height: calc(100vh - 200px);
+    min-height: 500px;
+    padding-bottom: 50px;
+
+    // em::after {
+    //     @include underline1_black(1vw);
+    // }
+
+    .underline {
+        @include underline(0);
+    }
+
+    .wrapper {
+        height: 100%;
+        padding-bottom: 175px;
+        // height: calc(100vh - 400px);
+        padding-right: 0;
+    }
+
+    .title_container {
+        position: absolute;
+        z-index: 1;
+        top: 100px;
+        right: 25vw;
+        will-change: transform;
+
+        .title {
+            transform: rotate(90deg) translateY(50%) translateX(75%);
+            transform-origin: 100% 0;
+            font-size: calc(1rem + 20vw);
+        }
+    }
+
+    .headline {
+        width: 50%;
+    }
+
+    .about {
+        max-width: 385px;
+    }
+
+    .image {
+        // padding: 10%;
+        min-height: 30vw;
+        background-color: $yellow-color;
+        background-blend-mode: multiply;
+    }
+
+}

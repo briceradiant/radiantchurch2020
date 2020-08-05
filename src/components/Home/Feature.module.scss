@@ -1,0 +1,73 @@
+@import "../../mixins/underlines-circles.scss";
+
+.inner {
+    max-width: 415px;
+    margin: 0 auto;
+    padding: 35px;
+}
+
+.underline {
+    @include underline(-5px);
+}
+
+
+.feature1 {
+    position: relative;
+    margin-top: 200px;
+
+    .wrapper {
+        padding-left: 0;
+    }
+
+    img,
+    .inner {
+        margin-top: -250px;
+    }
+}
+
+.feature2 {
+    .wrapper {
+        padding-right: 0;
+    }
+
+    img {
+        margin-top: -400px;
+    }
+
+    .inner {
+        margin-top: -100px;
+    }
+}
+
+.feature3 {
+    .wrapper {
+        padding-left: 0;
+    }
+
+    .image {
+        padding-bottom: 35px;
+    }
+
+    .left {
+        margin-top: 150px;
+    }
+
+    .right {
+        margin-top: -100px;
+
+        &>.image:first-child {
+            max-width: 350px;
+        }
+
+    }
+
+    @supports (display: grid) {
+        .image_grid {
+            grid-template-columns: 1fr 2fr;
+        }
+    }
+
+    .inner {
+        margin-top: -350px;
+    }
+}

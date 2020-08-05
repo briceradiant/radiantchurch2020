@@ -4,16 +4,31 @@ const infoData = require("./content/data/info.json")
 module.exports = {
   //this makes the site config available to forestry cms
   siteMetadata: {
-    title: config.title,
-    description: config.description,
-    repoUrl: config.repository_url,
-    about: config.about,
-    contact: config.contact,
-    primaryColor: config.primary_color,
-    infoData: infoData
+    // title: config.title,
+    // description: config.description,
+    // repoUrl: config.repository_url,
+    // about: config.about,
+    // contact: config.contact,
+    // primaryColor: config.primary_color,
+    // infoData: infoData
+    title: `Radiant Church`,
+    titleTemplate: "%s | Radiant Church",
+    description: `Radiant Church is a Gospel centered multi-ethnic church located in North Charleston, SC.`,
+    siteUrl: "http://localhost:8000/",
+    image: "/og-image.jpg",
   },
-  plugins: [
-    "gatsby-plugin-sass",
+  plugins: [{
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`${__dirname}/src/components/Layout.jsx`),
+      },
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        data: `@import "${__dirname}/src/variables/colors";`,
+      }
+    },
     "gatsby-transformer-remark",
     "gatsby-plugin-react-helmet",
     "gatsby-transformer-yaml",
@@ -38,6 +53,7 @@ module.exports = {
         path: `${__dirname}/content/data`,
       },
     },
+    `gatsby-transformer-json`,
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -75,5 +91,13 @@ module.exports = {
         ],
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /static/
+        }
+      }
+    }
   ],
 }
