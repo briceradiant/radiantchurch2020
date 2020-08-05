@@ -45,4 +45,4 @@ fields:
           "https://"</strong> (i.e. "https://www.google.com").
     label: Hero
 pages:
-  - content/data/home.json
+  - content/data/pages/home.json
