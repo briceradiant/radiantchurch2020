@@ -43,3 +43,5 @@ fields:
       with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
       "https://"</strong> (i.e. "https://www.google.com").
   label: Hero
+pages:
+- content/data/pages/Home.json
