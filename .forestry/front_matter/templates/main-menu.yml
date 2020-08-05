@@ -1,4 +1,30 @@
 ---
 label: Main Menu
 hide_body: true
-fields: []
+fields:
+- name: menu_item
+  type: field_group_list
+  fields:
+  - name: internal/external_url
+    type: boolean
+    label: Internal/External URL
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Internal Website URL
+    description: Begin URL with "/" (i.e. "/about-us")
+  - name: external_url
+    type: text
+    config:
+      required: false
+    label: External Website URL
+    showOnly:
+      field: internal/external_url
+      value: true
+    description: Begin URL with "https://" (i.e. "https://google.com")
+  config:
+    min: 1
+    max: 
+    labelField: 
+  label: Menu Item
