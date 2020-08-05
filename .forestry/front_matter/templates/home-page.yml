@@ -15,6 +15,8 @@ fields:
       schema:
         format: html
     label: Headline
+    description: Italicize the word/phrase you'd like to add emphasis to. This will
+      add a brush stroked underline or circle around that word/phrase.
   - name: bodytext
     type: textarea
     default: ''
