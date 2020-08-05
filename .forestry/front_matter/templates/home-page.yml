@@ -2,7 +2,7 @@
 label: Home Page
 hide_body: true
 fields:
-- name: hero
+- name: home_hero
   type: field_group
   config: {}
   fields:
