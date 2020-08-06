@@ -21,5 +21,17 @@
     "home_feature_cta_url": "#"
   },
   "seo_title": "",
-  "seo_description": ""
+  "seo_description": "",
+  "home_feature_3": {
+    "home_feature_headline": "Lorem Ipsum <em>Headline</em> 2 lines",
+    "home_feature_bodytext": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim",
+    "home_feature_images": [
+      "/v1596680254/home-feature-3a_jw1we9.jpg",
+      "/v1596680254/home-feature-3b_yajgsn.jpg",
+      "/v1596680254/home-feature-3c_etcrij.jpg",
+      "/v1596680254/home-feature-3d_vt4ol2.jpg"
+    ],
+    "home_feature_cta_text": "Button Title",
+    "home_feature_cta_url": "#"
+  }
 }
