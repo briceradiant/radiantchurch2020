@@ -2,8 +2,54 @@
 label: Our DNA Page
 hide_body: true
 fields:
-- name: our_dna
+- name: hero
   type: include
   config: {}
-  template: about-us-page
-  label: Our DNA
+  template: hero
+  label: Hero
+- name: dna_images
+  type: image_gallery
+  config: {}
+  label: Images
+  description: Upload <strong>up to 3 Images</strong>.
+- name: pillars
+  type: field_group_list
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: subheadline
+    type: text
+    config:
+      required: false
+    label: Subheadline
+  - name: bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Bodycopy
+  - name: extended_bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Extended Bodycopy
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Pillars
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
