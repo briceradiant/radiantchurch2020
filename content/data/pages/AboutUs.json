@@ -7,7 +7,8 @@
   "hero": {
     "title": "About Us",
     "hero_headline": "Who <span style=\"text-decoration: underline;\">we are,</span><br>where we come from, and where we're headed<br>as a church family",
-    "hero_background_color": "Yellow/White"
+    "hero_background_color": "Yellow",
+    "hero_font_color": "White"
   },
   "about_images": [
     "/v1596687017/about-hero-1_yg7wng.jpg",
