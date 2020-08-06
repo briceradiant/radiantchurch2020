@@ -1,4 +1,34 @@
 ---
 label: Hero
 hide_body: true
-fields: []
+fields:
+- name: page_title
+  type: text
+  config:
+    required: true
+  label: Page Title
+- name: hero_headline
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: html
+  label: Headline
+- name: hero_background_color
+  type: select
+  default: Yellow/White
+  config:
+    required: true
+    options:
+    - Yellow/White
+    - Black/White
+    - Black/Yellow
+    - White/Black
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Background Color/Font Color
