@@ -53,3 +53,5 @@ fields:
   config: {}
   template: seo
   label: SEO
+pages:
+- content/data/pages/OurDna.json

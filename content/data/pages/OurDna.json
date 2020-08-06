@@ -1,1 +1,34 @@
-{}
+{
+  "hero": {
+    "hero_background_color": "Yellow/White",
+    "title": "Our DNA",
+    "hero_headline": "Vision | Mission | Values<br>This is the DNA that drives<br>all we do<br>at Radiant Church"
+  },
+  "dna_images": [
+    "/v1596687907/dna-1_lnhfca.jpg",
+    "/v1596687907/dna-2_ll5krz.jpg",
+    "/v1596687907/dna-3_lih1i3.jpg"
+  ],
+  "pillars": [
+    {
+      "headline": "Our Vision",
+      "subheadline": "Radiant church prays for,  works for, and sees a day",
+      "bodycopy": "where every man, woman, and child has multiple opportunities to see, hear, and respond to the Good News of Jesus Christ without coming or going anywhere.",
+      "extended_bodycopy": ""
+    },
+    {
+      "headline": "Our Mission",
+      "subheadline": "Radiant Church exists  to see people",
+      "bodycopy": "transformed by the Gospel for the good of the city.",
+      "extended_bodycopy": ""
+    },
+    {
+      "headline": "Our Core Commitments",
+      "subheadline": "",
+      "bodycopy": "<strong>We are God's Family on Mission.</strong><br>This is more than a statement, it describes the core commitments (values in action) of Radiant Church.",
+      "extended_bodycopy": "<p><strong>We Are Committed to God</strong><br>We are committed to the rulership and authority of God the Father, God the Son, and God the Holy Spirit. Our commitment to God is displayed in finding our satisfaction, Joy, and purpose only in God who was revealed to us through the person and work of Jesus Christ. (Deuteronomy 6:5; Matthew 22:37; John 14:8-9)</p><p><strong>We Are Committed to Family</strong><br>The Bible puts an eternal weight on our natural familial bonds, making those who don’t care for their family even worse than an unbeliever. (1 Timothy 5:8) As such we are committed to loving, serving, and enduring with our natural family when at all possible. (Romans 12:18)</p><p>Furthermore, salvation is not just a reprieve from punishment but an adoption into a heavenly, eternal, spiritual, and multi-ethnic family with rights and responsibilities to one another. We must seek to intentionally build our church to reflect the diversity of our city as a tangible expression of our working to maintain the unity of the Spirit with our brothers and sisters across racial, cultural, socioeconomic, and generational differences. We commit to and love, forgive, and bear with our spiritual family for the Glory of God and the building up of His Church. (John 10:16; Ephesians 1:5; Mark 3:33-35; Romans 8:14; Romans 8:29; Romans 9:25-26, Hebrews 2:11, Ephesians 2, Ephesians 3:10, Ephesians 4:3, Revelation 7:9, Galatians 3:23, 1 Corinthians 12:12, Colossians 2:11, 1 Corinthians 12)</p><p><strong>We Are Committed to The Mission</strong><br>God gave the church a corporate mission, and each individual believer a vital part of that mission. The Bible uses many metaphors to describe how we are live in this world: ambassadors, salt and light, soldiers, a royal priesthood, etc.. All of these titles have a common theme of calling believers to live distinct from this world (Holy) in a way that shows that we live for someone else and serve another King. And in doing so, we invite others to join us. We use our time, talents, treasure to point to the redemption offered in Jesus Christ.</p><p>And although evangelism and discipleship in all its various forms is the primary aim and activity of the church, the mission of God includes working to see all of human life brought under the lordship of Jesus Christ. This includes doing good works on behalf of those who reject salvation. (Matthew 28:18-20; Matthew 5:14-16; 2 Corinthians 5:20-21; 2 Timothy 2:3-4; Ephesians 2:10)</p>"
+    }
+  ],
+  "seo_title": "Our DNA | Radiant Church",
+  "seo_description": ""
+}
