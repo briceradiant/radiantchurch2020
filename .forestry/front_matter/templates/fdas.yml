@@ -1,0 +1,23 @@
+---
+label: fdas
+hide_body: true
+fields:
+- type: field_group
+  name: home_hero
+  label: home_hero
+  fields:
+  - type: text
+    name: headline
+    label: headline
+  - type: textarea
+    name: bodytext
+    label: bodytext
+  - type: file
+    name: image
+    label: image
+  - type: text
+    name: cta_button_text
+    label: cta_button_text
+  - type: text
+    name: cta_button_url
+    label: cta_button_url
