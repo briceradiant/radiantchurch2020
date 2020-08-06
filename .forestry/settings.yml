@@ -12,6 +12,7 @@ sections:
   new_doc_ext: json
   templates:
   - home-page
+  - about-us-page
 - type: heading
   label: Content
 - type: directory
