@@ -1,4 +1,26 @@
 ---
 label: SEO+Slug
 hide_body: true
-fields: []
+fields:
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: page_title
+    type: text
+    config:
+      required: false
+    label: Page Title
+  - name: seo_groups
+    type: include
+    config: {}
+    template: seo
+    label: SEO
+  - name: slug
+    type: text
+    config:
+      required: false
+    label: Slug
+    description: Ensure the slug is all lowercase with no spaces. Feel free to replace
+      any space with a hyphen ("-") if necessary. (i.e. "what-to-expect" or "about-us").
+  label: SEO
