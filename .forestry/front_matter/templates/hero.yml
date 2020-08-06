@@ -2,11 +2,12 @@
 label: Hero
 hide_body: true
 fields:
-- name: page_title
+- name: title
   type: text
   config:
     required: true
-  label: Page Title
+  label: Title
+  description: Type in the page title.
 - name: hero_headline
   type: textarea
   default: ''
