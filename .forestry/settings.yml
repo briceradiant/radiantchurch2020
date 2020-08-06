@@ -14,6 +14,7 @@ sections:
   - default-page
   - home-page
   - about-us-page
+  - our-dna-page
 - type: heading
   label: Content
 - type: directory
