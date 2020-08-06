@@ -65,5 +65,10 @@ fields:
     template: headline-image-cta
     label: Content
   label: Feature 2
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
 pages:
 - content/data/pages/Home.json
