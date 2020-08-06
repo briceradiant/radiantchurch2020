@@ -2,7 +2,7 @@ import React from "react"
 import ContextConsumer from "../Context"
 import VizSensor from "react-visibility-sensor"
 
-import Underline from "../../../static/underline2_yellow.svg"
+// import Underline from "../../../static/underline2_yellow.svg"
 
 import style from "./Feature.module.scss"
 
@@ -32,7 +32,7 @@ const Feature1 = () => {
                       <h2 className="text-3xl">
                         Lorem Ipsum{" "}
                         <em>
-                          <Underline className={style.underline} />
+                          {/* <Underline className={style.underline} /> */}
                           Headline
                         </em>{" "}
                         2 lines

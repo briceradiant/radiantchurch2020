@@ -1,6 +1,6 @@
 import React from "react"
 
-import Underline from "../../../static/underline3_yellow.svg"
+// import Underline from "../../../static/underline3_yellow.svg"
 
 import style from "./Feature.module.scss"
 
@@ -14,7 +14,7 @@ const Feature1 = () => {
               <h2 className="text-3xl">
                 Lorem Ipsum{" "}
                 <em>
-                  Headline <Underline className={style.underline} />
+                  {/* Headline <Underline className={style.underline} /> */}
                 </em>{" "}
                 2 lines
               </h2>

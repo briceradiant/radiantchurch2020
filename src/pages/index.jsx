@@ -6,9 +6,9 @@ import SEO from "../components/SEO"
 import Footer from "../components/Footer"
 
 import Hero from "../components/Home/Hero"
-// import Feature1 from "../components/Home/Feature1"
-// import Feature2 from "../components/Home/Feature2"
-// import Feature3 from "../components/Home/Feature3"
+import Feature1 from "../components/Home/Feature1"
+import Feature2 from "../components/Home/Feature2"
+import Feature3 from "../components/Home/Feature3"
 
 const IndexPage = props => {
   const { set } = props
@@ -33,10 +33,9 @@ const IndexPage = props => {
       <SEO title="Radiant Church | Charleston, SC" />
       <div className="page" id="home">
         <Hero data={data.home_hero} scrollPos={scrollPos} />
-        {/* <Feature1 />
+        <Feature1 />
         <Feature2 />
         <Feature3 />
-         */}
       </div>
       <Footer />
     </>

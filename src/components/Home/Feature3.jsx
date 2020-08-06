@@ -2,7 +2,7 @@ import React from "react"
 
 import style from "./Feature.module.scss"
 
-const Feature1 = () => {
+const Feature3 = () => {
   return (
     <section className={`${style.feature3} pad_lg no_pad_top`}>
       <div className={`${style.wrapper} wrapper`}>
@@ -44,4 +44,4 @@ const Feature1 = () => {
   )
 }
 
-export default Feature1
+export default Feature3
