@@ -5,7 +5,7 @@ import style from "./Hero.module.scss"
 
 const Hero = props => {
   const { scrollPos, data } = props
-  // console.log(data)
+  console.log(data)
   return (
     <section className={`${style.hero} hero pad_lg`}>
       <div className={`${style.wrapper} wrapper flex column space-between`}>
@@ -23,24 +23,27 @@ const Hero = props => {
         <div className="flex align-end" style={{ height: "100%" }}>
           <div className="col">
             <div className={`${style.about} inner`}>
-              <p>{parse(data.bodytext)}</p>
-              {data.cta_button_url.startsWith("/") ? (
-                <Link to={data.cta_button_url} className="btn">
-                  {data.cta_button_text}
-                </Link>
-              ) : (
-                <a href={data.cta_button_url} className="btn">
-                  {data.cta_button_text}
-                </a>
-              )}
+              {data.bodytext && <p>{parse(data.bodytext)}</p>}
+              {data.cta_button_url &&
+                (data.cta_button_url.startsWith("/") ? (
+                  <Link to={data.cta_button_url} className="btn">
+                    {data.cta_button_text}
+                  </Link>
+                ) : (
+                  <a href={data.cta_button_url} className="btn">
+                    {data.cta_button_text}
+                  </a>
+                ))}
             </div>
           </div>
-          <div
-            className={`${style.image} col bg`}
-            style={{
-              backgroundImage: `url('https://res.cloudinary.com/radiant-church/image/upload${data.image}')`,
-            }}
-          ></div>
+          {data.image && (
+            <div
+              className={`${style.image} col bg`}
+              style={{
+                backgroundImage: `url('https://res.cloudinary.com/radiant-church/image/upload${data.image}')`,
+              }}
+            ></div>
+          )}
         </div>
       </div>
     </section>
