@@ -3,5 +3,10 @@
   "title": "About Us",
   "hero_headline": "Who <span style=\"text-decoration: underline;\">we are,</span><br>where we come from, and where we're headed<br>as a church family",
   "seo_title": "About Us | Radiant Church",
-  "seo_description": ""
+  "seo_description": "",
+  "hero": {
+    "title": "About Us",
+    "hero_headline": "Who <span style=\"text-decoration: underline;\">we are,</span><br>where we come from, and where we're headed<br>as a church family",
+    "hero_background_color": "Yellow/White"
+  }
 }
