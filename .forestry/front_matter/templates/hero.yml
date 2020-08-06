@@ -29,14 +29,28 @@ fields:
     config:
       required: true
       options:
-      - Yellow/White
-      - Black/White
-      - Black/Yellow
-      - White/Black
+      - Yellow
+      - Black
+      - White
       source:
         type: simple
         section: 
         file: 
         path: 
-    label: Background Color/Font Color
+    label: Background Color
+  - name: hero_font_color
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Yellow
+      - Black
+      - White
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Font Color
   label: Hero
