@@ -7,6 +7,49 @@ fields:
   config: {}
   template: hero
   label: Hero
+- name: about_images
+  type: image_gallery
+  config: {}
+  label: Images
+  description: 'Upload <strong>up to 2 Images</strong>. Recommended Image Dimensions:
+    1000x1200. The 4 Images will be dispersed in a grid with the last image being
+    shown the largest.'
+- name: pillars
+  type: field_group_list
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: subheadline
+    type: text
+    config:
+      required: false
+    label: Subheadline
+  - name: bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Bodycopy
+  - name: extended_bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Extended Bodycopy
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Pillars
 - name: seo
   type: include
   config: {}
