@@ -11,9 +11,7 @@ fields:
   type: image_gallery
   config: {}
   label: Images
-  description: 'Upload <strong>up to 2 Images</strong>. Recommended Image Dimensions:
-    1000x1200. The 4 Images will be dispersed in a grid with the last image being
-    shown the largest.'
+  description: Upload <strong>up to 2 Images</strong>.
 - name: pillars
   type: field_group_list
   fields:
