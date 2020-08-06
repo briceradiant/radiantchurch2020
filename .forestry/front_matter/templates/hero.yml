@@ -2,36 +2,41 @@
 label: Hero
 hide_body: true
 fields:
-- name: title
-  type: text
-  config:
-    required: true
-  label: Title
-  description: Type in the page title.
-- name: hero_headline
-  type: textarea
-  default: ''
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: html
-  label: Headline
-  description: "<strong>Underline the word/phrase</strong> you'd like to add emphasis
-    to. This will add a brush stroked underline or circle around that word/phrase."
-- name: hero_background_color
-  type: select
-  default: Yellow/White
-  config:
-    required: true
-    options:
-    - Yellow/White
-    - Black/White
-    - Black/Yellow
-    - White/Black
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Background Color/Font Color
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    description: Type in the page title.
+  - name: hero_headline
+    type: textarea
+    default: ''
+    config:
+      required: true
+      wysiwyg: true
+      schema:
+        format: html
+    description: "<strong>Underline the word/phrase</strong> you'd like to add emphasis
+      to. This will add a brush stroked underline or circle around that word/phrase."
+    label: Headline
+  - name: hero_background_color
+    type: select
+    default: ''
+    config:
+      required: true
+      options:
+      - Yellow/White
+      - Black/White
+      - Black/Yellow
+      - White/Black
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Background Color/Font Color
+  label: Hero
