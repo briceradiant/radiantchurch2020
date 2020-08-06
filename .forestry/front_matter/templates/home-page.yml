@@ -52,7 +52,7 @@ fields:
   - name: content
     type: include
     config: {}
-    template: headline-image-cta
+    template: fdas
     label: Content
   label: Feature 1
 - name: home_feature_2
@@ -62,7 +62,7 @@ fields:
   - name: content
     type: include
     config: {}
-    template: headline-image-cta
+    template: fdas
     label: Content
   label: Feature 2
 - name: seo
