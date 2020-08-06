@@ -1,10 +1,10 @@
 ---
-label: fdas
+label: Home Feature
 hide_body: true
 fields:
 - type: field_group
-  name: home_hero
-  label: home_hero
+  name: home_feature
+  label: Home Feature
   fields:
   - type: text
     name: headline
@@ -15,6 +15,9 @@ fields:
   - type: file
     name: image
     label: image
+    description: 'Recommended Image Dimensions: 1050x1350'
+    config:
+      maxSize: 5
   - type: text
     name: cta_button_text
     label: cta_button_text
