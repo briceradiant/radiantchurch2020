@@ -8,5 +8,29 @@
     "title": "About Us",
     "hero_headline": "Who <span style=\"text-decoration: underline;\">we are,</span><br>where we come from, and where we're headed<br>as a church family",
     "hero_background_color": "Yellow/White"
-  }
+  },
+  "about_images": [
+    "/v1596687017/about-hero-1_yg7wng.jpg",
+    "/v1596687017/about-hero-2_caq0qj.jpg"
+  ],
+  "pillars": [
+    {
+      "headline": "Who We Are",
+      "subheadline": "We are God’s Family on mission.",
+      "bodycopy": "This is more than a set of core values, this is the DNA of Radiant Church and shapes everything we do as a church family. Learn more about our beliefs here.",
+      "extended_bodycopy": ""
+    },
+    {
+      "headline": "Where we come from",
+      "subheadline": "Radiant is a Gospel-centered and intentionally multi-ethnic church",
+      "bodycopy": "in North Charleston, SC. Radiant began meeting weekly on Wednesdays in February 2017 and had its first Sunday service in June 2017.",
+      "extended_bodycopy": ""
+    },
+    {
+      "headline": "Where we're headed",
+      "subheadline": "",
+      "bodycopy": "<strong>Radiant exists to see people</strong><br>“Transformed by the Gospel for the Good of the City”.",
+      "extended_bodycopy": "<p><strong>We are God's Family on Mission.</strong><br>We believe that the Church should be a light that is seen by all those we interact with, and that light should produce good works for “The City” which includes being present in and positively impacting families, neighborhoods, government, education, businesses, and the Arts. (Matthew 5:14-16)</p><p>Ultimately, we want to see every man, woman, and child in North Charleston have multiple opportunities to see, hear, and respond to the Good News of Jesus without coming or going anywhere. Are you in?</p>"
+    }
+  ]
 }
