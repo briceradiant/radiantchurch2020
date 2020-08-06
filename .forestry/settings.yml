@@ -11,6 +11,7 @@ sections:
   match: "**/*"
   new_doc_ext: json
   templates:
+  - default-page
   - home-page
   - about-us-page
 - type: heading
