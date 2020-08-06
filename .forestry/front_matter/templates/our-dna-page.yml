@@ -45,7 +45,7 @@ fields:
     label: Extended Bodycopy
   config:
     min: 
-    max: 
+    max: 3
     labelField: 
   label: Pillars
 - name: seo
