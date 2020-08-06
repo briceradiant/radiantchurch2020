@@ -14,11 +14,11 @@
     "home_feature_cta_url": "#"
   },
   "home_feature_2": {
-    "home_feature_headline": "",
-    "home_feature_bodytext": "",
-    "home_feature_image": "",
-    "home_feature_cta_text": "",
-    "home_feature_cta_url": ""
+    "home_feature_headline": "Lorem Ipsum <em>Headline</em> 2 lines",
+    "home_feature_bodytext": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.",
+    "home_feature_image": "/v1596675877/home-feature-2_of0xlg.jpg",
+    "home_feature_cta_text": "Button Title",
+    "home_feature_cta_url": "#"
   },
   "seo_title": "",
   "seo_description": ""
