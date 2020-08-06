@@ -7,7 +7,7 @@
     "cta_button_url": "/sermons"
   },
   "home_feature_1": {
-    "home_feature_headline": "Lorem Ipsum <em>Headline</em> 2 lines",
+    "home_feature_headline": "Lorem Ipsum <span style=\"text-decoration: underline;\">Headline</span> 2 lines",
     "home_feature_bodytext": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim.",
     "home_feature_image": "/v1596675820/home-feature-1_wm4eto.jpg",
     "home_feature_cta_text": "Button Title",
