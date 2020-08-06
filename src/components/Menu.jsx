@@ -27,7 +27,7 @@ const Menu = props => {
         },
         {
           title: "Our DNA",
-          url: "/dna",
+          url: "/our-dna",
         },
         {
           title: "What to Expect",

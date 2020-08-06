@@ -1,0 +1,26 @@
+@import "../../../mixins/media.scss";
+@import "../../../mixins/underlines-circles.scss";
+
+.underline_1 {
+    @include underline(0);
+}
+
+.page_title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: rotate(-90deg) translateX(200px) translateY(200px);
+    width: 500px;
+}
+
+.hero,
+.wrapper {
+    min-height: 20vw;
+}
+
+:global {
+    #about-us .hero em:after {
+        content: "";
+        @include underline1_black(-2px, 1vw);
+    }
+}

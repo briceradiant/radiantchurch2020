@@ -1,4 +1,21 @@
-//for importing global styles
-import "./src/reset.scss"
-import "./src/variables/colors.scss"
-import "./src/styles.scss"
+require("intersection-observer")
+
+const transitionDelay = 500
+
+exports.shouldUpdateScroll = ({
+    routerProps: {
+        location
+    },
+    getSavedScrollPosition,
+}) => {
+    if (location.action === "PUSH") {
+        window.setTimeout(() => window.scrollTo(0, 0), transitionDelay)
+    } else {
+        const savedPosition = getSavedScrollPosition(location)
+        window.setTimeout(
+            () => window.scrollTo(...(savedPosition || [0, 0])),
+            transitionDelay
+        )
+    }
+    return false
+}
