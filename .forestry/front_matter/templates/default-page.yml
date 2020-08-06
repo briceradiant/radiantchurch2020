@@ -2,13 +2,13 @@
 label: Default Page
 hide_body: true
 fields:
-- name: hero
-  type: include
-  config: {}
-  template: hero
-  label: Hero
 - name: seo
   type: include
   config: {}
   template: seo-slug
   label: SEO
+- name: hero
+  type: include
+  config: {}
+  template: hero
+  label: Hero
