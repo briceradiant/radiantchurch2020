@@ -2,25 +2,33 @@
 label: Home Feature
 hide_body: true
 fields:
-- type: field_group
-  name: home_feature
-  label: Home Feature
-  fields:
-  - type: text
-    name: headline
-    label: headline
-  - type: textarea
-    name: bodytext
-    label: bodytext
-  - type: file
-    name: image
-    label: image
-    description: 'Recommended Image Dimensions: 1050x1350'
-    config:
-      maxSize: 5
-  - type: text
-    name: cta_button_text
-    label: cta_button_text
-  - type: text
-    name: cta_button_url
-    label: cta_button_url
+- name: home_feature_headline
+  type: text
+  config:
+    required: false
+  label: Headline
+- name: home_feature_bodytext
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Bodytext
+- name: home_feature_image
+  type: file
+  config:
+    maxSize: 5
+  label: Image
+  description: 'Recommended Image Dimensions: 1050x1350'
+- name: home_feature_cta_text
+  type: text
+  config:
+    required: false
+  label: CTA Button Text
+- name: home_feature_cta_url
+  type: text
+  config:
+    required: false
+  label: CTA Button URL
