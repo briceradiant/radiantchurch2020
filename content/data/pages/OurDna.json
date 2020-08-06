@@ -1,8 +1,9 @@
 {
   "hero": {
-    "hero_background_color": "Yellow/White",
+    "hero_background_color": "Yellow",
     "title": "Our DNA",
-    "hero_headline": "Vision | Mission | Values<br>This is the DNA that drives<br>all we do<br>at Radiant Church"
+    "hero_headline": "Vision | Mission | Values<br>This is the DNA that drives<br>all we do<br>at Radiant Church",
+    "hero_font_color": "White"
   },
   "dna_images": [
     "/v1596687907/dna-1_lnhfca.jpg",
