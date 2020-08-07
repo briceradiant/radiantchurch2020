@@ -5,6 +5,15 @@
     "title": "Meet our Staff",
     "hero_font_color": "Black"
   },
-  "seo_title": "",
-  "seo_description": ""
+  "seo_title": "Meet Our Staff | Radiant Church",
+  "seo_description": "",
+  "personnel": [
+    {
+      "name": "Philip Pinckney",
+      "role": "Lead Pastor",
+      "email": "philip@radiantcharleston.com",
+      "headshot": "/v1596774764/philip_zt4ohy.jpg",
+      "bio": "<p>Philip Pinckney planted Radiant Church in 2017. Since then, he has served as Radiant's lead pastor.</p><p>Philip is a native of Charleston, SC and received his Bachelor’s Degree from The Citadel, The Military College of South Carolina. He began his seminary training at Westminster Seminary, and will complete his Master’s degree at Southeastern Baptist Theological Seminary.</p><p>Philip is also the Executive Director of 1Charleston and also served in the Marine Corps for 6 years. In 2012 Philip married a gracious and loving woman, Jenetta Pinckney. They have two wonderful sons named Ezra and Judah. In his free time you can catch Philip wrestling with his sons or laughing loudly with friends.</p>"
+    }
+  ]
 }
