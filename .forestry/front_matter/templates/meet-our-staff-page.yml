@@ -50,6 +50,6 @@ fields:
     max: 
     labelField: 
   label: Personnel
-  description: Leave a "blank" personnel at the end for an additional spacer.
+  description: Leave two extra "blank" personnel at the end.
 pages:
 - content/data/pages/MeetOurStaff.json
