@@ -119,11 +119,13 @@ h3 {
 .text-lg {
   // 24px
   font-size: 1.5rem;
+  line-height: 1.3;
 }
 
 .text-xl {
   // 30px
   font-size: 1.675rem;
+  line-height: 1.3;
 }
 
 .text-2xl {
@@ -135,13 +137,13 @@ h3 {
 .text-3xl {
   // 42px
   font-size: 2.625rem;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .text-4xl {
   // 56px
   font-size: 3.5rem;
-  line-height: 1.2;
+  line-height: 1;
 }
 
 .text-5xl {

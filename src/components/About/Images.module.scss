@@ -1,0 +1,29 @@
+.about_images {
+    .wrapper {
+        padding-right: 0;
+        padding-left: 10%;
+    }
+}
+
+.dna_images {
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    @supports (display: grid) {
+        .grid {
+            grid-template-columns: 1.33fr 2fr !important;
+        }
+    }
+
+    .first {
+        margin-bottom: 35px;
+        max-width: 85%;
+        margin-left: auto;
+    }
+
+    .single {
+        margin-top: 65px;
+    }
+}

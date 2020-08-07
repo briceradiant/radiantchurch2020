@@ -5,6 +5,8 @@ import SEO from "../components/SEO"
 import Footer from "../components/Footer"
 
 import Hero from "../components/GlobalBlocks/Hero/Hero"
+import Images from "../components/About/AboutUsImages"
+import Pillars from "../components/About/Pillars"
 
 const AboutUsPage = props => {
   const { set } = props
@@ -28,6 +30,8 @@ const AboutUsPage = props => {
       />
       <div className="page" id="about-us" style={{ minHeight: "100vh" }}>
         <Hero data={data.pagesJson} />
+        <Images data={data.pagesJson.about_images} />
+        <Pillars data={data.pagesJson.pillars} />
       </div>
       <Footer />
     </>

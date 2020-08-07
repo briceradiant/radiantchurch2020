@@ -90,6 +90,12 @@ a {
     -ms-flex: 1;
     flex: 1;
 
+    &.two {
+      -webkit-box-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+    }
+
     &.auto {
       flex: 0 auto;
     }

@@ -1,0 +1,59 @@
+.pillars {
+    .row {
+        padding: 65px 0;
+
+        &:last-child {
+            padding-bottom: 0;
+        }
+
+        strong {
+            font-size: 1.35rem;
+            font-family: "Gilroy Extrabold", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .headline {
+            padding-bottom: 25px;
+            padding-right: 25px;
+            border-bottom: 2px solid;
+
+            &.no_subheadline {
+                border: 0;
+            }
+        }
+
+        .subheadline {
+            padding-right: 25px;
+        }
+
+        .inner {
+            padding: 50px 0;
+        }
+
+        .right {
+            border-left: 2px solid;
+
+            &.no_border {
+                border: 0;
+            }
+
+            .inner {
+                padding: 50px;
+            }
+
+        }
+
+        .extended {
+            padding: 100px;
+            position: relative;
+            left: calc(10% + 28px);
+            // margin-left: calc(10% + 28px);
+        }
+    }
+
+    .wrapper {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+}
