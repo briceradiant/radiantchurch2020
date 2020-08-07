@@ -18,6 +18,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "@n8tb1t/use-scroll-position": "^1.0.43",
     "gatsby": "^2.23.12",
@@ -44,8 +45,10 @@
     "react-dom": "^16.13.1",
     "react-helmet": "^6.1.0",
     "react-inlinesvg": "^2.0.1",
+    "react-slick": "^0.27.3",
     "react-transition-group": "^4.4.1",
     "react-visibility-sensor": "^5.1.1",
+    "slick-carousel": "^1.8.1",
     "typescript": "^3.9.5",
     "webpack": "^4.43.0"
   },

@@ -48,6 +48,11 @@
   text-transform: uppercase;
 }
 
+
+.caps {
+  @include caps-font;
+}
+
 .avenir-book-font {
   @include avenir-book;
 }
@@ -74,10 +79,6 @@ body {
   font-size: 1rem;
   line-height: 1.555rem;
   letter-spacing: 0.035em;
-}
-
-.caps {
-  @include caps-font;
 }
 
 h1 {

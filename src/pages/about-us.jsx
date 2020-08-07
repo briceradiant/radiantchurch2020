@@ -13,7 +13,7 @@ const AboutUsPage = props => {
   const data = useAboutUsData()
   const { seo_title, seo_description } = data.pagesJson
   const siteDescription = data.site.siteMetadata.description
-  console.log(data)
+  // console.log(data)
 
   useEffect(() => {
     //sets menu to be closed on page mount

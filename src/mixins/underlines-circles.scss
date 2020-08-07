@@ -28,7 +28,7 @@
 @mixin underline1_black($pos, $height) {
     @include underline($pos);
     height: $height;
-    background: url('/underline1_black.svg') center/cover no-repeat;
+    background: url('/underline1_black.svg') center/97% no-repeat;
 }
 
 @mixin underline2_yellow($pos, $height) {

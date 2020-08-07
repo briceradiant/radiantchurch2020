@@ -19,12 +19,18 @@
 }
 
 :global {
-    #about-us .hero h2>span {
+
+    #about-us .hero h2>span,
+    #staff .hero h2>span,
+    #dna .hero h2>span {
         position: relative;
         text-decoration: none !important;
     }
 
-    #about-us .hero h2>span::after {
+    #about-us .hero h2>span::after,
+    #staff .hero h2>span::after,
+    #dna .hero h2>span::after {
         @include underline1_black(0, 1.7vw);
     }
+
 }
