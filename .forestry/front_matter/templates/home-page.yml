@@ -2,118 +2,123 @@
 label: Home Page
 hide_body: true
 fields:
-- name: home_hero
-  type: field_group
-  config: {}
-  fields:
-  - name: headline
-    type: textarea
-    default: ''
-    config:
-      required: true
-      wysiwyg: true
-      schema:
-        format: html
-    label: Headline
-    description: Italicize the word/phrase you'd like to add emphasis to. This will
-      add a brush stroked underline or circle around that word/phrase.
-  - name: bodytext
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html
-    label: Bodytext
-  - name: image
-    type: file
-    config:
-      maxSize: 5
-    label: Image
-  - name: cta_button_text
-    type: text
-    config:
-      required: false
-    label: CTA Button Text
-  - name: cta_button_url
-    type: text
-    config:
-      required: false
-    label: CTA Button URL
-    description: If the URL is located within the site, then <strong>begin the text
-      with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
-      "https://"</strong> (i.e. "https://www.google.com").
-  label: Hero
-- name: home_feature_1
-  type: field_group
-  config: {}
-  fields:
-  - name: content
+  - name: home_hero
+    type: field_group
+    config: {}
+    fields:
+      - name: headline
+        type: textarea
+        default: ""
+        config:
+          required: true
+          wysiwyg: true
+          schema:
+            format: html
+        label: Headline
+        description:
+          Italicize the single word you'd like to add emphasis to. This will
+          add a brush stroked underline or circle around that word/phrase.
+      - name: bodytext
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html
+        label: Bodytext
+      - name: image
+        type: file
+        config:
+          maxSize: 5
+        label: Image
+      - name: cta_button_text
+        type: text
+        config:
+          required: false
+        label: CTA Button Text
+      - name: cta_button_url
+        type: text
+        config:
+          required: false
+        label: CTA Button URL
+        description:
+          If the URL is located within the site, then <strong>begin the text
+          with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
+          "https://"</strong> (i.e. "https://www.google.com").
+    label: Hero
+  - name: home_feature_1
+    type: field_group
+    config: {}
+    fields:
+      - name: content
+        type: include
+        config: {}
+        template: fdas
+        label: Content
+    label: Feature 1
+  - name: home_feature_2
+    type: field_group
+    config: {}
+    fields:
+      - name: content
+        type: include
+        config: {}
+        template: fdas
+        label: Content
+    label: Feature 2
+  - name: home_feature_3
+    type: field_group
+    config: {}
+    fields:
+      - name: home_feature_headline
+        type: textarea
+        default: ""
+        config:
+          required: true
+          wysiwyg: true
+          schema:
+            format: html
+        label: Headline
+        description:
+          Italicize the single word you'd like to add emphasis to. This will
+          add a brush stroked underline or circle around that word/phrase.
+      - name: home_feature_bodytext
+        type: textarea
+        default: ""
+        config:
+          required: false
+          wysiwyg: true
+          schema:
+            format: html
+        label: Bodytext
+      - name: home_feature_images
+        type: image_gallery
+        config: {}
+        label: Images
+        description:
+          "Upload <strong>up to 4 Images</strong>. Recommended Image Dimensions:
+          1000x1200. The 4 Images will be dispersed in a grid with the last image being
+          shown the largest."
+      - name: home_feature_cta_text
+        type: text
+        config:
+          required: false
+        label: CTA Button Text
+      - name: home_feature_cta_url
+        type: text
+        config:
+          required: false
+        label: CTA Button URL
+        description:
+          If the URL is located within the site, then <strong>begin the text
+          with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
+          "https://"</strong> (i.e. "https://www.google.com").
+    label: Feature 3
+  - name: seo
     type: include
     config: {}
-    template: fdas
-    label: Content
-  label: Feature 1
-- name: home_feature_2
-  type: field_group
-  config: {}
-  fields:
-  - name: content
-    type: include
-    config: {}
-    template: fdas
-    label: Content
-  label: Feature 2
-- name: home_feature_3
-  type: field_group
-  config: {}
-  fields:
-  - name: home_feature_headline
-    type: textarea
-    default: ''
-    config:
-      required: true
-      wysiwyg: true
-      schema:
-        format: html
-    label: Headline
-    description: Italicize the word/phrase you'd like to add emphasis to. This will
-      add a brush stroked underline or circle around that word/phrase.
-  - name: home_feature_bodytext
-    type: textarea
-    default: ''
-    config:
-      required: false
-      wysiwyg: true
-      schema:
-        format: html
-    label: Bodytext
-  - name: home_feature_images
-    type: image_gallery
-    config: {}
-    label: Images
-    description: 'Upload <strong>up to 4 Images</strong>. Recommended Image Dimensions:
-      1000x1200. The 4 Images will be dispersed in a grid with the last image being
-      shown the largest.'
-  - name: home_feature_cta_text
-    type: text
-    config:
-      required: false
-    label: CTA Button Text
-  - name: home_feature_cta_url
-    type: text
-    config:
-      required: false
-    label: CTA Button URL
-    description: If the URL is located within the site, then <strong>begin the text
-      with "/"</strong> (i.e. "/about-us"). Otherwise,<strong> begin the text with
-      "https://"</strong> (i.e. "https://www.google.com").
-  label: Feature 3
-- name: seo
-  type: include
-  config: {}
-  template: seo
-  label: SEO
+    template: seo
+    label: SEO
 pages:
-- content/data/pages/Home.json
+  - content/data/pages/Home.json

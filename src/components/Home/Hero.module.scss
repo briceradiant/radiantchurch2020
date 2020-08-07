@@ -6,10 +6,6 @@ section.hero {
     min-height: 500px;
     padding-bottom: 50px;
 
-    em::after {
-        @include underline1_black(0, 1vw);
-    }
-
     .underline {
         @include underline(0);
     }
@@ -37,6 +33,15 @@ section.hero {
 
     .headline {
         width: 50%;
+
+        &>span {
+            position: relative;
+            text-decoration: none !important;
+        }
+
+        &>span::after {
+            @include underline1_black(0, 1vw);
+        }
     }
 
     .about {
