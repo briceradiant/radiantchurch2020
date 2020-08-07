@@ -1,4 +1,9 @@
 ---
 label: Meet our Staff Page
 hide_body: true
-fields: []
+fields:
+- name: hero
+  type: include
+  config: {}
+  template: hero
+  label: Hero
