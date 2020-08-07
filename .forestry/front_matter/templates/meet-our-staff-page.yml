@@ -7,3 +7,8 @@ fields:
   config: {}
   template: hero
   label: Hero
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
