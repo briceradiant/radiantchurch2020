@@ -15,6 +15,7 @@ sections:
   - home-page
   - about-us-page
   - our-dna-page
+  - meet-our-staff-page
 - type: heading
   label: Content
 - type: directory
