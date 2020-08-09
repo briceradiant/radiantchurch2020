@@ -1,1 +1,13 @@
-{}
+{
+  "hero": {
+    "hero_background_color": "Black",
+    "hero_headline": "Our heart is to see you<br><span style=\"text-decoration: underline;\">flourish</span> in your walk<br>with Jesus.",
+    "title": "Resources",
+    "hero_font_color": "Yellow"
+  },
+  "subpage_cards": [
+
+  ],
+  "seo_title": "",
+  "seo_description": ""
+}

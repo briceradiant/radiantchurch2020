@@ -42,3 +42,4 @@ fields:
   label: SEO
 pages:
 - content/data/pages/Connect.json
+- content/data/pages/Resources.json
