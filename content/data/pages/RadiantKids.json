@@ -17,7 +17,7 @@
   },
   "first_visit": {
     "headline": "Your first visit",
-    "bodycopy": "Here's <strong>what to expect</strong> when visiting Radiant Kids for the <strong>first time</strong>:<br>When you arrive, we will meet your family, check your child into our system, and then one of our volunteers will lead your child to their age-appropriate room.<br>Upon checking in for the first time, we will ask for the following personal information (NOTE: We value your privacy and will not share this information with anyone):",
+    "bodycopy": "<p>Here's <strong>what to expect</strong> when visiting Radiant Kids for the <strong>first time</strong>:<br>When you arrive, we will meet your family, check your child into our system, and then one of our volunteers will lead your child to their age-appropriate room.</p><p>Upon checking in for the first time, we will ask for the following personal information (NOTE: We value your privacy and will not share this information with anyone):</p>",
     "info_boxes": [
       "Phone number",
       "Home address",
