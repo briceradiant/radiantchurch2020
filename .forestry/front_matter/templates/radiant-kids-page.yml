@@ -1,4 +1,18 @@
 ---
 label: Radiant Kids Page
 hide_body: true
-fields: []
+fields:
+- name: hero
+  type: include
+  config: {}
+  template: hero
+  label: Hero
+- name: radiant_kids_imags
+  type: image_gallery
+  config: {}
+  label: Images
+- name: seo
+  type: include
+  config: {}
+  template: seo
+  label: SEO
