@@ -1,1 +1,40 @@
-{}
+{
+  "hero": {
+    "hero_background_color": "Yellow",
+    "hero_headline": "We <span style=\"text-decoration: underline;\">love families</span> at<br>Radiant! Take a look<br>at our Kids Ministry.",
+    "title": "Radiant Kids",
+    "hero_font_color": "White"
+  },
+  "radiant_kids_imags": [
+    "/v1596935219/kids-2_dqci2c.jpg",
+    "/v1596935219/kids-1_lkkajg.jpg"
+  ],
+  "seo_title": "Radiant Kids | Radiant Church",
+  "seo_description": "",
+  "overview": {
+    "headline": "Kids Ministry",
+    "bodycopy": "At Radiant Church our kids (6 months through 9 yrs old) experience safe, age-appropriate environments where they learn about Jesus in a creative and relevant way.<br>We would love to see you and your family visit Radiant Kids!"
+  },
+  "first_visit": {
+    "headline": "Your first visit",
+    "bodycopy": "Here's <strong>what to expect</strong> when visiting Radiant Kids for the <strong>first time</strong>:<br>When you arrive, we will meet your family, check your child into our system, and then one of our volunteers will lead your child to their age-appropriate room.<br>Upon checking in for the first time, we will ask for the following personal information (NOTE: We value your privacy and will not share this information with anyone):",
+    "info_boxes": [
+      "Phone number",
+      "Home address",
+      "Child's birthdate",
+      "Child's name",
+      "Parent/guardian name(s)",
+      "Any special instructions  (allergies, special needs) for your  children"
+    ],
+    "image": "/v1596937428/kids-family_ve9lwe.jpg"
+  },
+  "check_in": {
+    "headline": "",
+    "left_column_bodycopy": "",
+    "right_column_bodycopy": ""
+  },
+  "parents_viewing_room": {
+    "headline": "",
+    "bodycopy": ""
+  }
+}
