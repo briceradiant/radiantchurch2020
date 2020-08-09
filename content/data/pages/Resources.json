@@ -6,8 +6,22 @@
     "hero_font_color": "Yellow"
   },
   "subpage_cards": [
-
+    {
+      "title": "Race, Justice & Reconciliation",
+      "url": "/race-justice-reconciliation",
+      "image": "/v1596946321/race_ud4hgi.jpg"
+    },
+    {
+      "url": "/prayer-guide",
+      "image": "/v1596946674/prayer_djvymx.jpg",
+      "title": "Prayer Guide"
+    },
+    {
+      "url": "/bible-reading-plans",
+      "image": "/v1596946707/bible_dvxikr.jpg",
+      "title": "Bible Reading Plans"
+    }
   ],
-  "seo_title": "",
+  "seo_title": "Resources | Radiant Church",
   "seo_description": ""
 }
