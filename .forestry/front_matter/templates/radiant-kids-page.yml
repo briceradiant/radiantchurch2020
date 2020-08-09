@@ -12,8 +12,107 @@ fields:
   config: {}
   label: Images
   description: Upload <strong>up to 2 Images</strong>.
+- name: overview
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Bodycopy
+  label: Overview
+- name: first_visit
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Bodycopy
+  - name: info_boxes
+    type: list
+    config:
+      use_select: false
+      min: 
+      max: 
+    label: Info Boxes
+  - name: image
+    type: file
+    config:
+      maxSize: 5
+    label: Image
+  label: First Visit
+- name: check_in
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: left_column_bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Left Column Bodycopy
+  - name: right_column_bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Right Column Bodycopy
+  label: How check-in works
+- name: parents_viewing_room
+  type: field_group
+  config: {}
+  fields:
+  - name: headline
+    type: text
+    config:
+      required: false
+    label: Headline
+  - name: bodycopy
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html
+    label: Bodycopy
+  label: Parent's Viewing Room
 - name: seo
   type: include
   config: {}
   template: seo
   label: SEO
+pages:
+- content/data/pages/RadiantKids.json
