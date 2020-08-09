@@ -33,6 +33,11 @@ const Pillars = props => {
                   >
                     <div className={`${style.wrapper} wrapper flex`}>
                       <div className="col">
+                        <div
+                          className={`${style.num} gilroy-extrabold-font text-xl`}
+                        >
+                          {"0" + (index + 1)}
+                        </div>
                         <div className={`${style.inner} inner`}>
                           {item.headline && (
                             <h3
