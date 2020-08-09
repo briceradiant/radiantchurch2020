@@ -17,7 +17,7 @@ const OurDnaPage = props => {
   useEffect(() => {
     //sets menu to be closed on page mount
     setTimeout(() => {
-      set({ menuOpen: false, logo: "logo" })
+      set({ menuOpen: false, logo: "logo-black" })
     }, 400)
   }, [])
 

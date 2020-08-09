@@ -1,0 +1,15 @@
+.box_container {
+    height: 100%;
+
+    .box {
+        border: 2px solid;
+        padding: 15px;
+        height: 100%;
+        min-height: 170px;
+    }
+}
+
+.image {
+    padding-left: 0;
+    padding-right: 19%;
+}
