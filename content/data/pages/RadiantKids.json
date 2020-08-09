@@ -30,7 +30,7 @@
   },
   "check_in": {
     "headline": "How check-in works",
-    "left_column_bodycopy": "<strong>Before Service</strong>: You can check-in your child at any available kiosk. After entering your phone number or child's name, you and your child will be given matching name tags that are exclusive to your family and your visit. Your child will need to wear the name tag portion while you hold on to the matching tag.<br><strong>After Service</strong>: After the service is complete, you will return to your child’s room and show your tag in order for your child to be released back to you.",
+    "left_column_bodycopy": "<p><strong>Before Service</strong>: You can check-in your child at any available kiosk. After entering your phone number or child's name, you and your child will be given matching name tags that are exclusive to your family and your visit. Your child will need to wear the name tag portion while you hold on to the matching tag.</p><p><strong>After Service</strong>: After the service is complete, you will return to your child’s room and show your tag in order for your child to be released back to you.</p>",
     "right_column_bodycopy": "<strong>During Service</strong>: In the event that we need to contact you during the service, your child’s identification code will appear on the screen. We ask that you exit the auditorium immediately and look for a staff member or volunteer who will direct you to your child’s room."
   },
   "parents_viewing_room": {
