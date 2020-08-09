@@ -1,1 +1,10 @@
-{}
+{
+  "hero": {
+    "hero_background_color": "Black",
+    "title": "Connect",
+    "hero_headline": "Family is a huge part<br>of who we are. Check out<br>what our <span style=\"text-decoration: underline;\">family is doing</span>.",
+    "hero_font_color": "White"
+  },
+  "seo_title": "Connect | Radiant Church",
+  "seo_description": ""
+}
