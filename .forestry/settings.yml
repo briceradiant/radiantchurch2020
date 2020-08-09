@@ -16,6 +16,7 @@ sections:
   - about-us-page
   - our-dna-page
   - meet-our-staff-page
+  - radiant-kids-page
 - type: heading
   label: Content
 - type: directory
