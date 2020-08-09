@@ -28,7 +28,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: html
+        format: html-blocks
     label: Bodycopy
   label: Overview
 - name: first_visit
@@ -47,7 +47,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: html
+        format: html-blocks
     label: Bodycopy
   - name: info_boxes
     type: list
@@ -78,7 +78,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: html
+        format: html-blocks
     label: Left Column Bodycopy
   - name: right_column_bodycopy
     type: textarea
@@ -87,7 +87,7 @@ fields:
       required: false
       wysiwyg: true
       schema:
-        format: html
+        format: html-blocks
     label: Right Column Bodycopy
   label: How check-in works
 - name: parents_viewing_room
