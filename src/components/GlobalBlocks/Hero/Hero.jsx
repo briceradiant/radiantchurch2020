@@ -14,6 +14,7 @@ const Hero = props => {
     hero_background_color,
     hero_font_color,
   } = props.data.hero
+  // console.log("hero: " + hero_background_color)
   return (
     <ContextConsumer>
       {({ data, set }) => {

@@ -18,15 +18,12 @@
     min-height: 20vw;
 }
 
-:global {
+.hero h2>span {
+    position: relative;
+    text-decoration: none !important;
+}
 
-    #about-us .hero h2>span,
-    #staff .hero h2>span,
-    #dna .hero h2>span,
-    #radiant-kids h2>span {
-        position: relative;
-        text-decoration: none !important;
-    }
+:global {
 
     #about-us .hero h2>span::after,
     #staff .hero h2>span::after,

@@ -12,6 +12,12 @@ query($eq: String = "Resources") {
     }
   }
   pagesJson(hero: {title: {eq: $eq}}) {
+    hero {
+          title
+          hero_headline
+          hero_background_color
+          hero_font_color
+        }    
     subpage_cards {
       title
       image

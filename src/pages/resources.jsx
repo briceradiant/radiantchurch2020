@@ -16,7 +16,7 @@ const ResourcesPage = props => {
   useEffect(() => {
     //sets menu to be closed on page mount
     setTimeout(() => {
-      set({ menuOpen: false, logo: "logo-black" })
+      set({ menuOpen: false, logo: "logo-inverse", hamburgerColor: "white" })
     }, 400)
   }, [])
 
