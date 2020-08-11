@@ -5,6 +5,7 @@ import SEO from "../components/SEO"
 import Footer from "../components/Footer"
 
 import Hero from "../components/GlobalBlocks/Hero/Hero"
+import Cards from "../components/GlobalBlocks/SubpageCards/Cards"
 
 const ResourcesPage = props => {
   const { set } = props
@@ -28,6 +29,7 @@ const ResourcesPage = props => {
       />
       <div className="page" id="resources" style={{ minHeight: "100vh" }}>
         <Hero data={data.pagesJson} />
+        <Cards data={data.pagesJson.subpage_cards} />
       </div>
       <Footer />
     </>

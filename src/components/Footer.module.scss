@@ -1,6 +1,11 @@
 @import "../mixins/media.scss";
 
 :global {
+    footer {
+        position: relative;
+        z-index: 9;
+    }
+
     #home footer {
         padding-top: 400px;
         margin-top: -450px;

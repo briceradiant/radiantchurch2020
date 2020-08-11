@@ -16,6 +16,8 @@
 .hero,
 .wrapper {
     min-height: 20vw;
+    position: relative;
+    z-index: 9;
 }
 
 .hero h2>span {
