@@ -14,7 +14,7 @@ const Hero = props => {
     hero_background_color,
     hero_font_color,
   } = props.data.hero
-  // console.log("hero: " + hero_background_color)
+  console.log("hero: " + hero_background_color)
   return (
     <ContextConsumer>
       {({ data, set }) => {
@@ -26,11 +26,9 @@ const Hero = props => {
               isVisible &&
                 set({
                   hamburgerColor:
-                    hero_background_color === "Yellow" || "White"
-                      ? "black"
-                      : "white",
+                    hero_background_color === "Yellow" ? "black" : "white",
                   logo:
-                    hero_background_color === "Yellow" || "White"
+                    hero_background_color === "Yellow"
                       ? "logo-black"
                       : "logo-inverse",
                 })
