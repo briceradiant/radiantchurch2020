@@ -17,5 +17,6 @@
       "url": "/give-online"
     }
   ],
-  "live_stream_widget": "<pre><code></code></pre>"
+  "live_stream_widget": "<pre><code></code></pre>",
+  "live_stream_iframe": "http://www.youtube.com/embed/xDMP3i36naA"
 }
