@@ -2,15 +2,27 @@
 label: Event
 hide_body: false
 fields:
-- type: datetime
-  name: date
-  label: date
 - type: text
   name: title
-  label: title
-- type: text
-  name: author
-  label: author
-- type: file
-  name: hero_image
-  label: hero_image
+  label: Title
+- type: datetime
+  name: start_date
+  label: Start Date/Time
+- name: end_date
+  type: datetime
+  label: End Date/Time
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html
+  label: Description
