@@ -3,7 +3,7 @@
   "hero": {
     "hero_background_color": "Black",
     "title": "Upcoming Events",
-    "hero_headline": "The latest happenings for<br>you &amp; your family<br>at Radiant Church",
+    "hero_headline": "The <span style=\"text-decoration: underline;\">latest happenings</span> for<br>you &amp; your family<br>at Radiant Church",
     "hero_font_color": "White"
   },
   "seo_description": ""
