@@ -7,15 +7,11 @@ fields:
   config: {}
   template: hero
   label: Hero
-- name: live_stream_widget
-  type: textarea
-  default: ''
+- name: live_stream_iframe
+  type: text
   config:
     required: false
-    wysiwyg: true
-    schema:
-      format: html-blocks
-  label: Live Stream Widget (Embed)
+  label: Live Stream iFrame src (Embed)
 - name: cta_blocks
   type: include
   config: {}
