@@ -19,6 +19,7 @@ sections:
   - radiant-kids-page
   - connect
   - live-stream-page
+  - events-page
 - type: directory
   path: content/events
   label: Events
