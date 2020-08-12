@@ -56,6 +56,3 @@ fields:
   showOnly:
     field: recurring_event
     value: true
-pages:
-- content/data/events/online-sunday-service.json
-- content/data/events/random-one-off-event.json

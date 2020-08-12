@@ -20,7 +20,7 @@ sections:
   - connect
   - live-stream-page
 - type: directory
-  path: content/data/events
+  path: content/events
   label: Events
   create: documents
   match: "**/*"
