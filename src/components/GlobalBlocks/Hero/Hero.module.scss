@@ -18,6 +18,8 @@
     min-height: 20vw;
     position: relative;
     z-index: 9;
+    display: flex;
+    align-items: center;
 }
 
 .hero h2>span {
@@ -27,11 +29,20 @@
 
 :global {
 
-    #about-us .hero h2>span::after,
-    #staff .hero h2>span::after,
-    #dna .hero h2>span::after {
+    .hero.black-bg h2>span::after {
+        @include underline4_yellow(0, 1.7vw);
+    }
+
+    .hero h2>span::after,
+    .hero.yellow-bg h2>span::after {
         @include underline1_black(0, 1.7vw);
     }
+
+    // #about-us .hero h2>span::after,
+    // #staff .hero h2>span::after,
+    // #dna .hero h2>span::after {
+    //     @include underline1_black(0, 1.7vw);
+    // }
 
     #radiant-kids h2>span::after {
         @include underline1_black(-5px, 2vw);

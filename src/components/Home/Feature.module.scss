@@ -58,6 +58,9 @@
 }
 
 .feature3 {
+    position: relative;
+    z-index: 10;
+
     .wrapper {
         padding-left: 0;
     }

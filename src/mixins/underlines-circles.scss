@@ -42,3 +42,9 @@
     height: $height;
     background: url('/underline3_yellow.svg') center/97% no-repeat;
 }
+
+@mixin underline4_yellow($pos, $height) {
+    @include underline($pos);
+    height: $height;
+    background: url('/underline4_yellow.svg') center/97% no-repeat;
+}
