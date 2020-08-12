@@ -7,6 +7,20 @@ fields:
   config: {}
   template: hero
   label: Hero
+- name: live_stream_widget
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: Live Stream Widget (Embed)
+- name: cta_blocks
+  type: include
+  config: {}
+  template: cta-blocks
+  label: CTA Blocks
 - name: seo
   type: include
   config: {}
