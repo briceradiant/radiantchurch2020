@@ -1,0 +1,9 @@
+{
+  "recurring_frequency": 0,
+  "title": "Random One Off Event",
+  "start_date": "2020-08-20T22:30:00Z",
+  "end_date": "2020-08-21T00:00:00Z",
+  "description": "Aliquam eu nunc. Sed augue ipsum, egestas nec, vestibulum et, malesuada adipiscing, dui. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Integer tincidunt. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+  "recurring_event": false,
+  "recurring_end_date": ""
+}
