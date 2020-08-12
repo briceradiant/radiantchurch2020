@@ -18,6 +18,7 @@ sections:
   - meet-our-staff-page
   - radiant-kids-page
   - connect
+  - live-stream-page
 - type: heading
   label: Content
 - type: directory
