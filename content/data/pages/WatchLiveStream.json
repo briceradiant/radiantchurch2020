@@ -1,7 +1,7 @@
 {
   "hero": {
     "hero_background_color": "Black",
-    "hero_headline": "Watch our Sunday Service <span style=\"text-decoration: underline;\">Live</span>!",
+    "hero_headline": "Watch our Sunday<br>Service <span style=\"text-decoration: underline;\">Live</span>!",
     "hero_font_color": "White",
     "title": "Watch Live Stream"
   },
