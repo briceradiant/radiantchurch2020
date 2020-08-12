@@ -11,7 +11,8 @@
     // bottom: 0;
     bottom: $pos;
     left: 0;
-    width: 100%;
+    // width: 100%;
+    width: calc(100% + 5vmin);
     height: auto;
     // -webkit-transform: translateY(100%);
     // transform: translateY(100%);

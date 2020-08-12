@@ -5,7 +5,7 @@ import {
 } from "react-transition-group"
 const getTransitionStyles = {
   entering: {
-    position: `absolute`,
+    // position: `absolute`,
     // transform: `translateY(40px)`,
     // transform: `translateY(-100%)`,
     opacity: 0.0001,

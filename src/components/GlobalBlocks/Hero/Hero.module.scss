@@ -30,12 +30,12 @@
 :global {
 
     .hero.black-bg h2>span::after {
-        @include underline4_yellow(0, 1.7vw);
+        @include underline4_yellow(0, 1.9vmin);
     }
 
     .hero h2>span::after,
     .hero.yellow-bg h2>span::after {
-        @include underline1_black(0, 1.7vw);
+        @include underline1_black(0, 1.9vmin);
     }
 
     // #about-us .hero h2>span::after,

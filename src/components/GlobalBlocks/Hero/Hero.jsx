@@ -14,7 +14,7 @@ const Hero = props => {
     hero_background_color,
     hero_font_color,
   } = props.data.hero
-  console.log("hero: " + hero_background_color)
+  // console.log("hero: " + hero_background_color)
   return (
     <ContextConsumer>
       {({ data, set }) => {
@@ -41,12 +41,15 @@ const Hero = props => {
               style={{ paddingTop: `${!isMobile ? 125 : 125 * 0.5}px` }}
             >
               <div className={`${style.wrapper} wrapper`}>
-                <h1
-                  className={`${style.page_title} gilroy-light-font text-xl lowercase`}
-                  style={{ paddingRight: 0 }}
-                >
-                  {title}
-                </h1>
+                {title && (
+                  <h1
+                    className={`${style.page_title} gilroy-light-font text-xl lowercase`}
+                    style={{ paddingRight: 0 }}
+                  >
+                    {title}
+                  </h1>
+                )}
+
                 <h2
                   className={`text-6xl ${hero_font_color
                     .toLowerCase()
