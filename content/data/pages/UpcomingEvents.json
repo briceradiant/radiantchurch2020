@@ -1,1 +1,10 @@
-{}
+{
+  "seo_title": "Upcoming Events | Radiant Church",
+  "hero": {
+    "hero_background_color": "Black",
+    "title": "Upcoming Events",
+    "hero_headline": "The latest happenings for<br>you &amp; your family<br>at Radiant Church",
+    "hero_font_color": "White"
+  },
+  "seo_description": ""
+}
