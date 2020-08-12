@@ -26,3 +26,32 @@ fields:
     schema:
       format: html
   label: Description
+- name: recurring_event
+  type: boolean
+  label: Recurring Event?
+- name: recurring_frequency
+  type: number
+  label: Recurring Frequency
+  description: Type in a number of how frequent the event will recur (.i.e entering
+    "7" would cause the event to repeat every 7 days).
+  default: 0
+  required: true
+  config:
+    min: 1
+    max: 7
+    step: 1
+  showOnly:
+    field: recurring_event
+    value: true
+- name: recurring_end_date
+  type: datetime
+  label: Recurring End Date (Optional)
+  description: Set a date when you want to stop the recurring events from continuing.
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  showOnly:
+    field: recurring_event
+    value: true
