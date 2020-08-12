@@ -22,7 +22,7 @@ sections:
 - type: directory
   path: content/data/events
   label: Events
-  create: all
+  create: documents
   match: "**/*"
   new_doc_ext: json
   templates:
