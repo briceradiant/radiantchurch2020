@@ -19,6 +19,14 @@ sections:
   - radiant-kids-page
   - connect
   - live-stream-page
+- type: directory
+  path: content/data/events
+  label: Events
+  create: all
+  match: "**/*"
+  new_doc_ext: json
+  templates:
+  - event
 - type: heading
   label: Content
 - type: directory
