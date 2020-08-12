@@ -6,5 +6,16 @@
     "title": "Watch Live Stream"
   },
   "seo_title": "Watch Live Stream | Radiant Church",
-  "seo_description": ""
+  "seo_description": "",
+  "blocks": [
+    {
+      "title": "Fill Out a Connect Card",
+      "url": "https://radiantcharleston.churchcenter.com/people/forms/15402?open-in-church-center-modal=true"
+    },
+    {
+      "title": "Give Online",
+      "url": "/give-online"
+    }
+  ],
+  "live_stream_widget": "<pre><code></code></pre>"
 }
