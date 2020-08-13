@@ -59,3 +59,5 @@ fields:
   showOnly:
     field: recurring_event
     value: true
+pages:
+- content/events/college-recent-grads-group.json
