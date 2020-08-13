@@ -47,9 +47,10 @@ fields:
     value: true
 - name: recurring_end_date
   type: datetime
-  label: Recurring End Date (Optional)
+  label: Recurring End Date
   description: Set a date when you want to stop the recurring events from continuing.
-    If no date set, it'll end a year from whatever today's date is.
+    If the desire is to have the event recur forever, then go ahead and set a date
+    5 or so years into the future.
   config:
     required: false
     date_format: 
