@@ -1,0 +1,9 @@
+{
+  "recurring_frequency": 7,
+  "title": "Empty Recurring Placeholder",
+  "start_date": "",
+  "end_date": "",
+  "description": "",
+  "recurring_event": true,
+  "recurring_end_date": "2099-01-01T05:00:00Z"
+}

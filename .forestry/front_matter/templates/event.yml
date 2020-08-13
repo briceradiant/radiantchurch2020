@@ -58,3 +58,5 @@ fields:
   showOnly:
     field: recurring_event
     value: true
+pages:
+- content/events/empty-recurring-placeholder.json
