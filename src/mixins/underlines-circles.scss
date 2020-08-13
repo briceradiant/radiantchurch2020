@@ -1,51 +1,51 @@
 @mixin underline($pos) {
-    content: "";
-    display: inline-block;
-    // position: absolute;
-    // bottom: 0;
-    // left: 0;
-    // width: 100%;
-    position: absolute;
-    z-index: 1;
-    pointer-events: none;
-    // bottom: 0;
-    bottom: $pos;
-    left: 0;
-    // width: 100%;
-    width: calc(100% + 5vmin);
-    height: auto;
-    // -webkit-transform: translateY(100%);
-    // transform: translateY(100%);
+  content: "";
+  display: inline-block;
+  // position: absolute;
+  // bottom: 0;
+  // left: 0;
+  // width: 100%;
+  position: absolute;
+  z-index: 1;
+  pointer-events: none;
+  // bottom: 0;
+  bottom: $pos;
+  left: 0;
+  // width: 100%;
+  width: calc(100% + 2vmin);
+  height: auto;
+  // -webkit-transform: translateY(100%);
+  // transform: translateY(100%);
 }
 
 @mixin circle1_yellow($pos, $height) {
-    @include underline($pos);
-    height: 100%;
-    padding: 30px 15px;
-    left: -20px;
-    background: url('/circle1_yellow.svg') center/97% no-repeat;
+  @include underline($pos);
+  height: 100%;
+  padding: 30px 15px;
+  left: -20px;
+  background: url("/circle1_yellow.svg") center/97% no-repeat;
 }
 
 @mixin underline1_black($pos, $height) {
-    @include underline($pos);
-    height: $height;
-    background: url('/underline1_black.svg') center/97% no-repeat;
+  @include underline($pos);
+  height: $height;
+  background: url("/underline1_black.svg") center/97% no-repeat;
 }
 
 @mixin underline2_yellow($pos, $height) {
-    @include underline($pos);
-    height: $height;
-    background: url('/underline2_yellow.svg') center/97% no-repeat;
+  @include underline($pos);
+  height: $height;
+  background: url("/underline2_yellow.svg") center/97% no-repeat;
 }
 
 @mixin underline3_yellow($pos, $height) {
-    @include underline($pos);
-    height: $height;
-    background: url('/underline3_yellow.svg') center/97% no-repeat;
+  @include underline($pos);
+  height: $height;
+  background: url("/underline3_yellow.svg") center/97% no-repeat;
 }
 
 @mixin underline4_yellow($pos, $height) {
-    @include underline($pos);
-    height: $height;
-    background: url('/underline4_yellow.svg') center/97% no-repeat;
+  @include underline($pos);
+  height: $height;
+  background: url("/underline4_yellow.svg") center/97% no-repeat;
 }
