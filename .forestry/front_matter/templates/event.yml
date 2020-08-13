@@ -9,6 +9,7 @@ fields:
 - type: datetime
   name: start_date
   label: Start Date/Time
+  default: ''
 - name: end_date
   type: datetime
   label: End Date/Time
